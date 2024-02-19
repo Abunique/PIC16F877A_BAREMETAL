@@ -1,0 +1,109 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"35 D:\Embedded_software_course_materials\CLASS_Programs\LCD_number_display.X\LCD_number_display.c
+[v _main main `(v  1 e 1 0 ]
+"52
+[v _LCD_PIC_init LCD_PIC_init `(v  1 e 1 0 ]
+"76
+[v _LCD_output LCD_output `(v  1 e 1 0 ]
+"94
+[v _LCD_command LCD_command `(v  1 e 1 0 ]
+"105
+[v _LCD_data LCD_data `(v  1 e 1 0 ]
+"278 C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f877a.h
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+"340
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"1437
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"1499
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"2774
+[v _RD7 RD7 `VEb  1 e 0 @71 ]
+"32 D:\Embedded_software_course_materials\CLASS_Programs\LCD_number_display.X\LCD_number_display.c
+[v _num1 num1 `ui  1 e 2 0 ]
+[v _num2 num2 `ui  1 e 2 0 ]
+[v _sum sum `ui  1 e 2 0 ]
+"33
+[v _equal equal `uc  1 e 1 0 ]
+[v _plus plus `uc  1 e 1 0 ]
+"74
+[v _num_arr num_arr `[10]uc  1 e 10 0 ]
+"35
+[v _main main `(v  1 e 1 0 ]
+{
+"50
+} 0
+"76
+[v _LCD_output LCD_output `(v  1 e 1 0 ]
+{
+"86
+[v LCD_output@j j `i  1 a 2 1 ]
+"77
+[v LCD_output@i i `uc  1 a 1 3 ]
+[v LCD_output@result result `uc  1 a 1 0 ]
+"76
+[v LCD_output@n n `ui  1 p 2 10 ]
+"89
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 4 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 6 ]
+"5
+[v ___lwdiv@divisor divisor `ui  1 p 2 0 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 2 ]
+"30
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+{
+[v ___bmul@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v ___bmul@product product `uc  1 a 1 8 ]
+"4
+[v ___bmul@multiplier multiplier `uc  1 a 1 wreg ]
+[v ___bmul@multiplicand multiplicand `uc  1 p 1 7 ]
+"6
+[v ___bmul@multiplier multiplier `uc  1 a 1 9 ]
+"51
+} 0
+"105 D:\Embedded_software_course_materials\CLASS_Programs\LCD_number_display.X\LCD_number_display.c
+[v _LCD_data LCD_data `(v  1 e 1 0 ]
+{
+[v LCD_data@hex hex `uc  1 a 1 wreg ]
+[v LCD_data@hex hex `uc  1 a 1 wreg ]
+[v LCD_data@hex hex `uc  1 a 1 2 ]
+"111
+} 0
+"52
+[v _LCD_PIC_init LCD_PIC_init `(v  1 e 1 0 ]
+{
+"73
+} 0
+"94
+[v _LCD_command LCD_command `(v  1 e 1 0 ]
+{
+[v LCD_command@hex hex `uc  1 a 1 wreg ]
+[v LCD_command@hex hex `uc  1 a 1 wreg ]
+[v LCD_command@hex hex `uc  1 a 1 2 ]
+"100
+} 0
