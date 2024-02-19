@@ -1,0 +1,27 @@
+Pwm duty cycle is specified by writing to CCPR1L and CCP1CON<5:4>
+FOSC=6000000
+PWM Frequency(Fpwm) = 1khz
+TMR2_PRESCALE_VALUE = 16
+PR2 = (FOSC/(4*Fpwm*TMR2_PRESCALE_VALUE))-1
+CCPR1L:CCP1CON<5:4> = DUTYCYCLE*Fosc/TMR2_PRESCALE_VALUE
+
+Find PR2 value:
+
+PR2 = 6000000/(4*1000*16)-1 =94(0x5E)
+
+Find Dutycycle value:
+
+For 10% duty cycle :
+         Dutycycle time = 0.1/pwm_frequency = 0.1/1000
+CCPR1L:CCP1CON<5:4> =0.0001*6000000/16 = 38 =>0x26 =>0010 0110
+Load CCPR1L = 0000 1001 ; CCP1CON<5:4> = 10
+
+For 50% duty cycle :
+         Dutycycle time = 0.5/pwm_frequency = 0.5/1000
+CCPR1L:CCP1CON<5:4> =0.0005*6000000/16 = 188 =>0xBC =>1011 1100
+Load CCPR1L = 0010 1111 ; CCP1CON<5:4> = 00
+
+For 80% duty cycle :
+         Dutycycle time = 0.8/pwm_frequency = 0.8/1000
+CCPR1L:CCP1CON<5:4> =0.0008*6000000/16 = 300 =>0x12C =>0001 0010 1100
+Load CCPR1L = 0100 1011 ; CCP1CON<5:4> = 00
