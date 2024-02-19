@@ -1,0 +1,240 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+"43 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"242
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"38 D:\Embedded_software_course_materials\TASK_Programs\Week4_LCD_batt.X\LCD_batt.c
+[v _main main `(v  1 e 1 0 ]
+"45
+[v _keyscane keyscane `(v  1 e 1 0 ]
+"82
+[v _batt_msg batt_msg `(v  1 e 1 0 ]
+"102
+[v _LCD_output LCD_output `(v  1 e 1 0 ]
+"117
+[v _LCD_PIC_init LCD_PIC_init `(v  1 e 1 0 ]
+"144
+[v _LCD_command LCD_command `(v  1 e 1 0 ]
+"155
+[v _LCD_data LCD_data `(v  1 e 1 0 ]
+"216 C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f877a.h
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"278
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+"340
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"1375
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1437
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"1499
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"34 D:\Embedded_software_course_materials\TASK_Programs\Week4_LCD_batt.X\LCD_batt.c
+[v _array array `[16]uc  1 e 16 0 ]
+[v _value value `uc  1 e 1 0 ]
+"35
+[v _BATT_MSG1 BATT_MSG1 `[16]uc  1 e 16 0 ]
+[v _BATT_MSG2 BATT_MSG2 `[16]uc  1 e 16 0 ]
+[v _BATT_MSG3 BATT_MSG3 `[16]uc  1 e 16 0 ]
+"36
+[v _BATT_VAL BATT_VAL `f  1 e 4 0 ]
+"101
+[v _d2 d2 `uc  1 e 1 0 ]
+[v _d1 d1 `uc  1 e 1 0 ]
+[v _d0 d0 `uc  1 e 1 0 ]
+"38
+[v _main main `(v  1 e 1 0 ]
+{
+"43
+} 0
+"45
+[v _keyscane keyscane `(v  1 e 1 0 ]
+{
+"50
+[v keyscane@x x `uc  1 a 1 13 ]
+"80
+} 0
+"82
+[v _batt_msg batt_msg `(v  1 e 1 0 ]
+{
+"95
+[v batt_msg@x_77 x `uc  1 a 1 2 ]
+"90
+[v batt_msg@x_76 x `uc  1 a 1 1 ]
+"85
+[v batt_msg@x x `uc  1 a 1 0 ]
+"99
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+{
+[v ___flge@ff1 ff1 `d  1 p 4 0 ]
+[v ___flge@ff2 ff2 `d  1 p 4 4 ]
+"19
+} 0
+"102 D:\Embedded_software_course_materials\TASK_Programs\Week4_LCD_batt.X\LCD_batt.c
+[v _LCD_output LCD_output `(v  1 e 1 0 ]
+{
+[v LCD_output@i i `f  1 p 4 71 ]
+"115
+} 0
+"10 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 33 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 32 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 23 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 31 ]
+"44
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"43 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 22 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 21 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 13 ]
+"70
+} 0
+"242 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcadd.c
+[v ___flsub __flsub `(d  1 e 4 0 ]
+{
+[v ___flsub@a a `d  1 p 4 37 ]
+[v ___flsub@b b `d  1 p 4 41 ]
+"250
+} 0
+"10
+[v ___fladd __fladd `(d  1 e 4 0 ]
+{
+"17
+[v ___fladd@grs grs `uc  1 a 1 11 ]
+"15
+[v ___fladd@bexp bexp `uc  1 a 1 10 ]
+"16
+[v ___fladd@aexp aexp `uc  1 a 1 9 ]
+"13
+[v ___fladd@signs signs `uc  1 a 1 8 ]
+"10
+[v ___fladd@b b `d  1 p 4 0 ]
+[v ___fladd@a a `d  1 p 4 4 ]
+"237
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S382 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S387 . 4 `s 1 wordA 2 0 `s 1 wordB 2 2 ]
+[u S390 . 4 `l 1 i 4 0 `d 1 f 4 0 `S382 1 fAsBytes 4 0 `S387 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S390  1 a 4 65 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 59 ]
+[s S459 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S462 . 2 `s 1 i 2 0 `us 1 n 2 0 `S459 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S462  1 a 2 69 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 64 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 63 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 58 ]
+"8
+[v ___flmul@b b `d  1 p 4 45 ]
+[v ___flmul@a a `d  1 p 4 49 ]
+"205
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+{
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v __Umul8_16@word_mpld word_mpld `us  1 a 2 6 ]
+"5
+[v __Umul8_16@product product `us  1 a 2 4 ]
+"4
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+[v __Umul8_16@multiplicand multiplicand `uc  1 p 1 0 ]
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 8 ]
+"60
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 7 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 0 ]
+"20
+[v ___fldiv@new_exp new_exp `s  1 a 2 5 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 12 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 11 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 4 ]
+"8
+[v ___fldiv@a a `d  1 p 4 0 ]
+[v ___fldiv@b b `d  1 p 4 4 ]
+"185
+} 0
+"155 D:\Embedded_software_course_materials\TASK_Programs\Week4_LCD_batt.X\LCD_batt.c
+[v _LCD_data LCD_data `(v  1 e 1 0 ]
+{
+[v LCD_data@hex hex `uc  1 a 1 wreg ]
+[v LCD_data@hex hex `uc  1 a 1 wreg ]
+[v LCD_data@hex hex `uc  1 a 1 2 ]
+"161
+} 0
+"117
+[v _LCD_PIC_init LCD_PIC_init `(v  1 e 1 0 ]
+{
+"140
+} 0
+"144
+[v _LCD_command LCD_command `(v  1 e 1 0 ]
+{
+[v LCD_command@hex hex `uc  1 a 1 wreg ]
+[v LCD_command@hex hex `uc  1 a 1 wreg ]
+[v LCD_command@hex hex `uc  1 a 1 2 ]
+"150
+} 0
